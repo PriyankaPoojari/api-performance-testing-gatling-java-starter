@@ -3,9 +3,11 @@
 When selecting a performance testing tool, it's important to evaluate the strengths and limitations of each. Below is a comparison of Gatling with other popular tools like JMeter and LoadRunner, focusing on CI/CD integration, maintainability, cost, and results management.
 
 🔹 Apache JMeter
+
 Pros:
 Intuitive UI: Easy to use, even without referencing documentation.
 Good for quick manual test setups and exploratory performance testing.
+
 Cons:
 Limited CI/CD Integration: Cannot be easily run as part of a build pipeline for faster feedback.
 Script Maintenance: Scripts require careful version control and are harder to manage in a collaborative environment.
