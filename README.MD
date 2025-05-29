@@ -1,6 +1,7 @@
 # API Performance Testing with Gatling (Java)
 ## Why Choose Gatling over Other Performance Testing Tools?
 When selecting a performance testing tool, it's important to evaluate the strengths and limitations of each. Below is a comparison of Gatling with other popular tools like JMeter and LoadRunner, focusing on CI/CD integration, maintainability, cost, and results management.
+
 🔹 Apache JMeter
 Pros:
 Intuitive UI: Easy to use, even without referencing documentation.
