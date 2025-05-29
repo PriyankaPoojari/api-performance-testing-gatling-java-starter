@@ -1,7 +1,37 @@
 # API Performance Testing with Gatling (Java)
+## Why Choose Gatling over Other Performance Testing Tools?
+When selecting a performance testing tool, it's important to evaluate the strengths and limitations of each. Below is a comparison of Gatling with other popular tools like JMeter and LoadRunner, focusing on CI/CD integration, maintainability, cost, and results management.
+🔹 Apache JMeter
+Pros:
+Intuitive UI: Easy to use, even without referencing documentation.
+Good for quick manual test setups and exploratory performance testing.
+Cons:
+Limited CI/CD Integration: Cannot be easily run as part of a build pipeline for faster feedback.
+Script Maintenance: Scripts require careful version control and are harder to manage in a collaborative environment.
+Results Management: Lacks built-in support for historical result archiving or dashboarding.
+
+🔹 LoadRunner
+Pros:
+Enterprise-grade tool with robust test execution and reporting.
+Historical results available through Performance Center.
+Cons:
+Cost: Licensed tool with significant cost implications.
+Execution Dependency: Requires Performance Center Scheduler to run tests.
+Complexity: Requires coding skills to create and maintain scripts.
+
+🔹 Gatling
+Pros:
+CI/CD Friendly: Seamlessly integrates with Jenkins and other pipelines.
+Script Management: Gatling scripts are written in code (Scala/Java/Kotlin) and can be version-controlled in Git (e.g., Bitbucket).
+Result Reporting:
+Test results can be uploaded to S3 Buckets.
+HTML reports are automatically generated and accessible from Jenkins builds.
+Lightweight and fast execution.
+Cons:
+Requires some coding knowledge (supports multiple languages like Java, Scala, kotlin etc), but offers greater flexibility and reusability in return.
+
 
 This project demonstrates API performance testing using [Gatling](https://gatling.io/) with Java. It includes sample simulations for REST API endpoints.
-
 ## Project Structure
 
 - `src/test/java/common/ProjectInfo.java`: Configuration constants (base URL, user count, etc.)
