@@ -73,4 +73,4 @@ To add a new API endpoint for performance testing:
 
 4. **Reporting**  
    - After execution, HTML reports are generated in `target/gatling`.
-   - Sample report uploaded to 
+   - Sample report uploaded to target/gatling/loadsimulation-20250529083649185/index.html
